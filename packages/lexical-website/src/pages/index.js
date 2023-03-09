@@ -25,7 +25,7 @@ function HomepageHeader() {
         <h1 className="hero__title">
           <img
             className={styles.logo}
-            src="/img/logo-dark.svg"
+            src="img/logo-dark.svg"
             alt="Lexical Logo: containing an icon of a text editor glyph containing a text cursor on the left, with the text of 'Lexical' on the right."
           />
         </h1>
