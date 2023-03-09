@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_lexical_website=self.webpackChunk_lexical_website||[]).push([[5705],{7049:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/lexical/blog/tags/hello","allTagsPath":"/lexical/blog/tags","count":2}')}}]);
