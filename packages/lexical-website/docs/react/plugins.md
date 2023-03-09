@@ -75,6 +75,69 @@ Plugin that calls `onChange` whenever Lexical state is updated. Using `ignoreHis
 <OnChangePlugin onChange={onChange} />
 ```
 
+The TypeScript signature of `onChange` is
+
+```typescript
+onChange: (editorState: EditorState, editor: LexicalEditor) => void;
+```
+
+We are free to pass any or no argument at all to `onChange` in TypeScript. For example, the following definition is
+valid:
+
+```typescript
+onst onChange = function (editorState: EditorState): void {
+  ...
+}
+```
+
+#### Running Hooks in `LexicalOnChangePlugin`
+
+What if our `onChange` logic depends on things other than `editorState` and `editor`? For example, we might need to
+[communicate with an external database](https://github.com/facebook/lexical/discussions/3355) to log the editor's
+modified date or have to sync with a Redux store by dispatching something inside `onChange`. Is there a good way to
+pass such logic into `onChange`? Yes.
+
+Let's take Redux as an example
+
+```typescript
+export type EditorProps = {
+  updateSomeData: (someData: any) => void
+}
+
+function Editor(props: EditorProps): JSX.Element {
+
+  const onChange = function (editorState: EditorState): void {
+    editorState.read(() => {
+      // Read the contents of the EditorState here.
+      ...
+
+      props.updateSomeData(transformEditorStateToSomeData(editorState))
+    })
+  }
+  
+  const editorConfig = { ... };
+
+  return (
+    <LexicalComposer initialConfig={editorConfig}>
+      <div className="editor-container">
+        <div className="editor-inner">
+          <OnChangePlugin onChange={onChange} />
+        </div>
+      </div>
+    </LexicalComposer>
+  );
+}
+
+const mapDispatchToProps = (dispatch: Dispatch<Action>) => ({
+  updateSomeData: (someData: any) => { dispatch({ type: '...', payload: '...' }) }
+})
+
+export default withBus(connect(null, mapDispatchToProps)(Editor))
+```
+
+The key is to pass custom logic (i.e. `updateSomeData`) through functional programming without having to modifying
+`onChange` or `OnChangePlugin` signatures.
+
 ### `LexicalHistoryPlugin`
 
 React wrapper for `@lexical/history` that adds support for history stack management and `undo` / `redo` commands
