@@ -15,17 +15,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const importPlugin = require('remark-import-partial');
 
 const TITLE = 'Lexical';
-const GITHUB_REPO_URL = 'https://github.com/facebook/lexical'; // TODO: Update when repo name updated
+const GITHUB_REPO_URL = 'https://github.com/QubitPi/lexical';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  baseUrl: '/',
+  baseUrl: '/lexical/',
 
   favicon: 'img/favicon.ico',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'facebook',
+  organizationName: 'QubitPi',
   plugins: [
     './plugins/webpack-buffer',
     [
@@ -85,7 +85,6 @@ const config = {
     ],
   ],
 
-  // Usually your GitHub org/user name.
   projectName: 'lexical',
 
   tagline: 'An extensible text editor framework that does things differently',
