@@ -19,7 +19,7 @@ const {packagesManager} = process.env.FB_INTERNAL
 const path = require('node:path');
 
 const TITLE = 'Lexical';
-const GITHUB_REPO_URL = 'https://github.com/facebook/lexical'; // TODO: Update when repo name updated
+const GITHUB_REPO_URL = 'https://github.com/QubitPi/lexical';
 const IOS_GITHUB_REPO_URL = 'https://github.com/facebook/lexical-ios';
 
 function sourceLinkOptions() {
@@ -214,7 +214,7 @@ const STACKBLITZ_PREFIX = `https://stackblitz.com/github/${GIT_REPO_OWNER}/${GIT
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  baseUrl: '/',
+  baseUrl: '/lexical/',
 
   customFields: {
     GIT_COMMIT_REF,
@@ -246,7 +246,7 @@ const config = {
   // These are false positives when linking from API docs
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'throw',
-  organizationName: 'facebook',
+  organizationName: 'QubitPi',
   plugins: [
     process.env.FB_INTERNAL
       ? null
@@ -315,7 +315,6 @@ const config = {
     ],
   ],
 
-  // Usually your GitHub org/user name.
   projectName: 'lexical',
 
   tagline: 'An extensible text editor framework that does things differently',
