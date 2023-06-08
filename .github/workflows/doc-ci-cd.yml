@@ -3,16 +3,24 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 ---
-name: Documentation Test
+name: Documentation CI/CD
 
 'on':
   workflow_call:
   pull_request:
-    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - master
+
+env:
+  JDK_VERSION: 11
+  JDK_DISTRIBUTION: 'adopt'
+  USER: QubitPi
+  EMAIL: jack20220723@gmail.com
 
 jobs:
-  test:
-    name: Test Website Build
+  ci-cd:
+    name: Tests & Deploys Documentation to GitHub Pages
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -30,3 +38,11 @@ jobs:
           npm install
       - name: Build website
         run: npm run build
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: packages/lexical-website/build
+          user_name: ${{ env.USER }}
+          user_email: ${{ env.EMAIL }}

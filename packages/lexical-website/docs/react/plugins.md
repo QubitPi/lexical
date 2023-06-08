@@ -129,14 +129,106 @@ function Editor(props: EditorProps): JSX.Element {
 }
 
 const mapDispatchToProps = (dispatch: Dispatch<Action>) => ({
-  updateSomeData: (someData: any) => { dispatch({ type: '...', payload: '...' }) }
+  updateSomeData: (someData: any) => { dispatch({ type: 'SOME_UPDATE_ACTION', payload: someData }) }
 })
 
 export default withBus(connect(null, mapDispatchToProps)(Editor))
 ```
 
+The logic of the code above goes like this:
+
+We are dispatching actions to Redux store. The action simply updates the store state with the `someData`. 
+
+Now `dispatch` is a function of the Redux store. We call `store.dispatch` to dispatch an action. **This is the only way 
+to trigger a state change**. With React Redux, our `Editor` component never accesses the store directly - **connect** 
+does it for us. With `connect`, we let the `Editor` component dispatch the aforementioned actions using 
+**mapDispatchToProps**.
+
+`mapDispatchToProps` is the second argument passed to `connect`. The `mapDispatchToProps` function will be called with 
+`dispatch` as the first argument. We normally make use of this by returning a new function, i.e. our `updateSomeData`, 
+that call `dispatch()` inside itself, and either pass in a plain action object directly or pass in the result of an 
+action creator. In our case, we pass a plain action object directly:
+
+```typescript
+const mapDispatchToProps = (dispatch: Dispatch<Action>) => ({
+  updateSomeData: (someData: any) => { dispatch({ type: 'UPDATE_ACTION_FOR_SOME_OTHER_COMPONENTS', payload: someData }) }
+})
+```
+
+We see `mapDispatchToProps` essentially returns an object. The field (`updateSomeData`) inside this object will become
+a separate prop for our `Editor` component. When this field is called as a function inside the `Editor` component, its
+corresponding value, the function `(someData: any) => { dispatch(...) }`, will be called to dispatch an action. For
+this reason, We call `updateSomeData` **action dispatching function**
+
+The return of the `mapDispatchToProps` function will be merged to the connected component (`Editor`) as props. We may 
+call it directly to dispatch its action:
+
+```typescript
+props.updateSomeData(transformEditorStateToSomeData(editorState))
+```
+
 The key is to pass custom logic (i.e. `updateSomeData`) through functional programming without having to modifying
 `onChange` or `OnChangePlugin` signatures.
+
+Next, we could have a
+[Redux reducer](https://qubitpi.github.io/redux/tutorials/fundamentals/part-3-state-actions-reducers#writing-reducers) 
+that updates store states:
+
+```typescript
+export const initialState = {
+  nodes: [],
+  relationships: []
+}
+
+...
+
+export default function reducer(
+  state = initialState,
+  action: GraphEditorAction
+) {
+  switch (action.type) {
+    case SOME_UPDATE_ACTION:
+      return {
+        ...state,
+        ...action.payload
+      }
+    default:
+      return state
+  }
+}
+
+export function getEditorNodes(state: GlobalState) {
+  return state["editor"].nodes
+}
+```
+
+- Every reducer needs some initial state, that's why we have some one-time statement `state = initialState` above there
+- The way we update the store states is simply key-merging the existing states with the states in the payload
+- `nodes` & `relationships` in `initialState` are 2 example states that redux store maintains. 
+
+How editor communicates to the central Redux store can be summarized in the figure below:
+
+![Transforms lifecycle](/img/docs/redux-logic-in-lexical.png)
+
+To automatically update the state in another connected component (say, `MyComponent`), we will use `getEditorNodes`
+defined above. In `MyComponent`, we will have
+
+```typescript
+export default function MyComponent({ editorNodes }): JSX.Element {
+
+  useEffect(() => {
+    // Update the HTML with updated 'editorNodes'...
+  }, [editorNodes]);
+}
+
+const mapStateToProps = (state: GlobalState) => ({
+  editorNodes: getEditorNodes(state),
+})
+```
+
+Whenever user types something new in editor, `MyComponent` will **automatically** get notified by Redux store via
+`mapStateToProps`. The store will use `getEditorNodes` to map store state to `MyComponent` props and send it to 
+`MyComponent` for re-rendering
 
 ### `LexicalHistoryPlugin`
 
