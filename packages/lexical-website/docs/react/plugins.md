@@ -71,6 +71,70 @@ React wrapper for `@lexical/rich-text` that adds major features for rich text ed
 />
 ```
 
+:::caution
+
+The `LexicalRichTextPlugin`
+[does NOT offer the rich text _toolbar_ menus](https://github.com/facebook/lexical/discussions/2649#discussioncomment-3179738)
+such as the one shown below:
+
+![Error loading toolbar-menu-example.png](./img/toolbar-menu-example.png)
+
+The toolbar plugin, however, can be implemented by ourselves by following
+[this example](https://codesandbox.io/s/lexical-rich-text-example-57px3t). In order to get rid of **styles.css**, we 
+will replace it with [styled-component](https://qubitpi.github.io/styled-components-website/). For example, in
+**style.css** we define dropdown as
+
+```css
+.dropdown {
+  z-index: 5;
+  display: block;
+  position: absolute;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  min-width: 100px;
+  min-height: 40px;
+  background-color: #fff;
+}
+```
+
+We will have a **styled.ts** file alongside with **ToolbarPlugin.js** with the contents
+
+```typescript
+import styled from "styled-components";
+
+export const Dropdown = styled.div`
+  z-index: 5;
+  display: block;
+  position: absolute;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  min-width: 100px;
+  min-height: 40px;
+  background-color: #fff;
+`;
+```
+
+Then we can replace 
+
+```javascript
+    <div className="dropdown" ref={dropDownRef}>
+      ...
+    </div>
+```
+
+
+```javascript
+    <Dropdown
+      ref={dropDownRef}
+    >
+      ...
+    </Dropdown>
+```
+
+:::
+
 ### `LexicalOnChangePlugin`
 
 Plugin that calls `onChange` whenever Lexical state is updated. Using `ignoreHistoryMergeTagChange` (`true` by default) and `ignoreSelectionChange` (`false` by default) can give more granular control over changes that are causing `onChange` call.
