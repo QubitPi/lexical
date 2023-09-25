@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - master
     paths-ignore:
       - 'packages/lexical-website/**'
   pull_request:
@@ -17,14 +18,13 @@ concurrency:
 
 jobs:
   integrity:
-    if: github.repository_owner == 'facebook'
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [18.14.2]
     env:
       CI: true
-      GITHUB_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -47,7 +47,6 @@ jobs:
       - run: npm run build-www
 
   unit:
-    if: github.repository_owner == 'facebook'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -74,7 +73,6 @@ jobs:
       - run: npm run test-unit
 
   e2e-mac:
-    if: github.repository_owner == 'facebook'
     runs-on: macos-latest
     strategy:
       matrix:
@@ -116,7 +114,6 @@ jobs:
           retention-days: 7
 
   e2e-linux:
-    if: github.repository_owner == 'facebook'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -162,7 +159,6 @@ jobs:
           retention-days: 7
 
   e2e-windows:
-    if: github.repository_owner == 'facebook'
     runs-on: windows-latest
     strategy:
       matrix:
@@ -203,7 +199,6 @@ jobs:
           retention-days: 7
 
   e2e-collab-mac:
-    if: github.repository_owner == 'facebook'
     runs-on: macos-latest
     strategy:
       matrix:
@@ -241,7 +236,6 @@ jobs:
           retention-days: 7
 
   e2e-collab-linux:
-    if: github.repository_owner == 'facebook'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -283,7 +277,6 @@ jobs:
           retention-days: 7
 
   e2e-collab-windows:
-    if: github.repository_owner == 'facebook'
     runs-on: windows-latest
     strategy:
       matrix:
@@ -320,7 +313,6 @@ jobs:
           retention-days: 7
 
   e2e-prod:
-    if: github.repository_owner == 'facebook'
     runs-on: macos-latest
     strategy:
       matrix:
@@ -362,7 +354,6 @@ jobs:
           retention-days: 7
 
   e2e-collab-prod:
-    if: github.repository_owner == 'facebook'
     runs-on: macos-latest
     strategy:
       matrix:
