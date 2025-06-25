@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_lexical_website=self.webpackChunk_lexical_website||[]).push([[1880],{4616:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/lexical/blog/tags/docusaurus","allTagsPath":"/lexical/blog/tags","count":4}')}}]);

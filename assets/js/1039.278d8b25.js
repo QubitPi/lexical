@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_lexical_website=self.webpackChunk_lexical_website||[]).push([["1039"],{76159:function(e,c,i){i.d(c,{createArchitectureServices:()=>s.i});var s=i(80547);i(31890)}}]);

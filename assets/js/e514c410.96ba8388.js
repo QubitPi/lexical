@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_lexical_website=self.webpackChunk_lexical_website||[]).push([[8515],{3892:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/lexical/blog/tags/facebook","allTagsPath":"/lexical/blog/tags","count":1}')}}]);

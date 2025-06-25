@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_lexical_website=self.webpackChunk_lexical_website||[]).push([["3432"],{33505:function(e,s,r){r.r(s),r.d(s,{default:()=>n});var a=r(52322);r(2784);var c=r(67239),l=r(81904),t=r(66460),u=r(9702),i=r(47049);function n(e){return(0,a.jsx)(l.FG,{className:(0,c.Z)(t.k.wrapper.docsPages),children:(0,a.jsx)(i.Z,{children:(0,u.H)(e.route.routes)})})}}}]);
