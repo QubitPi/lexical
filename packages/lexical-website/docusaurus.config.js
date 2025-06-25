@@ -214,7 +214,7 @@ const STACKBLITZ_PREFIX = `https://stackblitz.com/github/${GIT_REPO_OWNER}/${GIT
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  baseUrl: '/lexical/',
+  baseUrl: '/',
 
   customFields: {
     GIT_COMMIT_REF,
