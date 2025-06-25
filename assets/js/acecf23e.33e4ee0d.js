@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_lexical_website=self.webpackChunk_lexical_website||[]).push([["7627"],{47548:function(e){e.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);

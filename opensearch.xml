@@ -4,8 +4,8 @@
   <ShortName>Lexical</ShortName>
   <Description>Search Lexical</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://lexical.dev/lexical/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://lexical.dev/lexical/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://lexical.dev/lexical/opensearch.xml" />
-  <moz:SearchForm>https://lexical.dev/lexical/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://lexical.dev/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://lexical.dev/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://lexical.dev/opensearch.xml" />
+  <moz:SearchForm>https://lexical.dev/</moz:SearchForm>
 </OpenSearchDescription>
