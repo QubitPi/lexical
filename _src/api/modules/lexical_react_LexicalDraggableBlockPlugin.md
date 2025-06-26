@@ -29,4 +29,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalDraggableBlockPlugin.tsx:450](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalDraggableBlockPlugin.tsx#L450)
+[packages/lexical-react/src/LexicalDraggableBlockPlugin.tsx:452](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalDraggableBlockPlugin.tsx#L452)
