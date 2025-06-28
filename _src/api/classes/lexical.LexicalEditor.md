@@ -42,7 +42,7 @@ Removes focus from the editor.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1360](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1360)
+[packages/lexical/src/LexicalEditor.ts:1368](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1368)
 
 ___
 
@@ -76,7 +76,7 @@ will be re-used (as if this was a dollar function itself).
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1092](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1092)
+[packages/lexical/src/LexicalEditor.ts:1100](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1100)
 
 ___
 
@@ -102,7 +102,7 @@ exist. If you want to force a specific selection, you should call
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1319](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1319)
+[packages/lexical/src/LexicalEditor.ts:1327](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1327)
 
 ___
 
@@ -126,7 +126,7 @@ A mapping of call decorator keys to their decorated content
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1103](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1103)
+[packages/lexical/src/LexicalEditor.ts:1111](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1111)
 
 ___
 
@@ -144,7 +144,7 @@ The editor state
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1212](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1212)
+[packages/lexical/src/LexicalEditor.ts:1220](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1220)
 
 ___
 
@@ -168,7 +168,7 @@ the HTMLElement rendered by the LexicalNode associated with the key.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1204](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1204)
+[packages/lexical/src/LexicalEditor.ts:1212](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1212)
 
 ___
 
@@ -186,7 +186,7 @@ The editor key
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1121](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1121)
+[packages/lexical/src/LexicalEditor.ts:1129](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1129)
 
 ___
 
@@ -204,7 +204,7 @@ this reference may not be stable.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1113](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1113)
+[packages/lexical/src/LexicalEditor.ts:1121](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1121)
 
 ___
 
@@ -235,7 +235,7 @@ True if the editor has registered the provided node type, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1069](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1069)
+[packages/lexical/src/LexicalEditor.ts:1077](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1077)
 
 ___
 
@@ -266,7 +266,7 @@ True if the editor has registered all of the provided node types, false otherwis
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1078](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1078)
+[packages/lexical/src/LexicalEditor.ts:1086](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1086)
 
 ___
 
@@ -301,7 +301,7 @@ True if the editor is editable, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1377](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1377)
+[packages/lexical/src/LexicalEditor.ts:1385](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1385)
 
 ___
 
@@ -326,7 +326,7 @@ deserialization from JSON stored in a database uses this method.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1276](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1276)
+[packages/lexical/src/LexicalEditor.ts:1284](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1284)
 
 ___
 
@@ -358,7 +358,7 @@ the read.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1295](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1295)
+[packages/lexical/src/LexicalEditor.ts:1303](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1303)
 
 ___
 
@@ -560,7 +560,7 @@ a teardown function that can be used to cleanup the listener.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1037](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1037)
+[packages/lexical/src/LexicalEditor.ts:1045](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1045)
 
 ___
 
@@ -686,7 +686,7 @@ editor will not listen for user events on the underling contenteditable.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1385](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1385)
+[packages/lexical/src/LexicalEditor.ts:1393](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1393)
 
 ___
 
@@ -709,7 +709,7 @@ Imperatively set the EditorState. Triggers reconciliation like an update.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1221](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1221)
+[packages/lexical/src/LexicalEditor.ts:1229](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1229)
 
 ___
 
@@ -732,7 +732,7 @@ for events on.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1129](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1129)
+[packages/lexical/src/LexicalEditor.ts:1137](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1137)
 
 ___
 
@@ -754,7 +754,7 @@ A JSON-serializable javascript object
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1400](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1400)
+[packages/lexical/src/LexicalEditor.ts:1408](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1408)
 
 ___
 
@@ -778,4 +778,4 @@ where Lexical editor state can be safely mutated.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:1306](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1306)
+[packages/lexical/src/LexicalEditor.ts:1314](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L1314)

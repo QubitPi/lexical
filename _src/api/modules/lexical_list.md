@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-list/src/index.ts:63](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L63)
+[packages/lexical-list/src/index.ts:69](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L69)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-list/src/index.ts:61](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L61)
+[packages/lexical-list/src/index.ts:67](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L67)
 
 ___
 
@@ -87,7 +87,17 @@ ___
 
 #### Defined in
 
-[packages/lexical-list/src/index.ts:66](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L66)
+[packages/lexical-list/src/index.ts:72](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L72)
+
+___
+
+### UPDATE\_LIST\_START\_COMMAND
+
+• `Const` **UPDATE\_LIST\_START\_COMMAND**: [`LexicalCommand`](lexical.md#lexicalcommand)\<\{ `listNodeKey`: [`NodeKey`](lexical.md#nodekey) ; `newStart`: `number`  }\>
+
+#### Defined in
+
+[packages/lexical-list/src/index.ts:63](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L63)
 
 ## Functions
 
@@ -309,7 +319,7 @@ a new ListNode, or create a new ListNode at the nearest root/shadow root.
 
 #### Defined in
 
-[packages/lexical-list/src/index.ts:243](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L243)
+[packages/lexical-list/src/index.ts:265](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L265)
 
 ___
 
@@ -361,7 +371,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-list/src/index.ts:70](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L70)
+[packages/lexical-list/src/index.ts:76](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L76)
 
 ___
 
@@ -387,7 +397,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-list/src/index.ts:148](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L148)
+[packages/lexical-list/src/index.ts:170](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L170)
 
 ___
 
@@ -416,4 +426,4 @@ inside a ListItemNode will be appended to the new ParagraphNodes.
 
 #### Defined in
 
-[packages/lexical-list/src/index.ts:256](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L256)
+[packages/lexical-list/src/index.ts:278](https://github.com/QubitPi/lexical/tree/main/packages/lexical-list/src/index.ts#L278)
