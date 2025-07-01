@@ -20,7 +20,7 @@ are triggered when an indirect descendant is marked dirty)
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:274](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L274)
+[packages/lexical/src/LexicalEditor.ts:275](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L275)
 
 ___
 
@@ -33,7 +33,7 @@ do not inherit from ElementNode.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:279](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L279)
+[packages/lexical/src/LexicalEditor.ts:280](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L280)
 
 ___
 
@@ -46,7 +46,7 @@ equivalent to `editor.getEditorState()`
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:284](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L284)
+[packages/lexical/src/LexicalEditor.ts:285](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L285)
 
 ___
 
@@ -66,7 +66,7 @@ Added in v0.28.0
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:296](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L296)
+[packages/lexical/src/LexicalEditor.ts:297](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L297)
 
 ___
 
@@ -83,7 +83,7 @@ this is only used for conflict resolution edge cases in collab.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:305](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L305)
+[packages/lexical/src/LexicalEditor.ts:306](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L306)
 
 ___
 
@@ -95,7 +95,7 @@ The previous EditorState that is being discarded
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:309](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L309)
+[packages/lexical/src/LexicalEditor.ts:310](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L310)
 
 ___
 
@@ -109,4 +109,4 @@ reconciliation which may have been added by separate updates.
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:315](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L315)
+[packages/lexical/src/LexicalEditor.ts:316](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L316)

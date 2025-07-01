@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:343](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L343)
+[packages/lexical/src/LexicalEditor.ts:344](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L344)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:347](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L347)
+[packages/lexical/src/LexicalEditor.ts:348](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L348)
 
 ___
 
@@ -180,7 +180,7 @@ function $handleMyCommand(editor: LexicalEditor, payload: CommandPayloadType<typ
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:380](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L380)
+[packages/lexical/src/LexicalEditor.ts:381](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L381)
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:217](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L217)
+[packages/lexical/src/LexicalEditor.ts:218](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L218)
 
 ___
 
@@ -386,7 +386,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:345](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L345)
+[packages/lexical/src/LexicalEditor.ts:346](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L346)
 
 ___
 
@@ -404,7 +404,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:192](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L192)
+[packages/lexical/src/LexicalEditor.ts:193](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L193)
 
 ___
 
@@ -420,7 +420,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:116](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L116)
+[packages/lexical/src/LexicalEditor.ts:117](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L117)
 
 ___
 
@@ -430,7 +430,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:72](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L72)
+[packages/lexical/src/LexicalEditor.ts:73](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L73)
 
 ___
 
@@ -504,7 +504,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:128](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L128)
+[packages/lexical/src/LexicalEditor.ts:129](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L129)
 
 ___
 
@@ -523,7 +523,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:91](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L91)
+[packages/lexical/src/LexicalEditor.ts:92](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L92)
 
 ___
 
@@ -616,7 +616,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:207](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L207)
+[packages/lexical/src/LexicalEditor.ts:208](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L208)
 
 ___
 
@@ -632,7 +632,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:66](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L66)
+[packages/lexical/src/LexicalEditor.ts:67](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L67)
 
 ___
 
@@ -648,7 +648,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:61](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L61)
+[packages/lexical/src/LexicalEditor.ts:62](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L62)
 
 ___
 
@@ -670,7 +670,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:356](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L356)
+[packages/lexical/src/LexicalEditor.ts:357](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L357)
 
 ___
 
@@ -704,7 +704,7 @@ A LexicalNode class or LexicalNodeReplacement configuration
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:215](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L215)
+[packages/lexical/src/LexicalEditor.ts:216](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L216)
 
 ___
 
@@ -722,7 +722,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:198](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L198)
+[packages/lexical/src/LexicalEditor.ts:199](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L199)
 
 ___
 
@@ -768,7 +768,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:334](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L334)
+[packages/lexical/src/LexicalEditor.ts:335](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L335)
 
 ___
 
@@ -831,7 +831,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:251](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L251)
+[packages/lexical/src/LexicalEditor.ts:252](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L252)
 
 ___
 
@@ -921,7 +921,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:327](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L327)
+[packages/lexical/src/LexicalEditor.ts:328](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L328)
 
 ___
 
@@ -952,7 +952,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:418](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L418)
+[packages/lexical/src/LexicalEditor.ts:419](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L419)
 
 ___
 
@@ -1061,7 +1061,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:57](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L57)
+[packages/lexical/src/LexicalEditor.ts:58](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L58)
 
 ___
 
@@ -1240,7 +1240,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:243](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L243)
+[packages/lexical/src/LexicalEditor.ts:244](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L244)
 
 ___
 
@@ -1266,7 +1266,7 @@ A listener that gets called after the editor is updated
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:321](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L321)
+[packages/lexical/src/LexicalEditor.ts:322](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L322)
 
 ___
 
@@ -1379,7 +1379,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:353](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L353)
+[packages/lexical/src/LexicalEditor.ts:354](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L354)
 
 ___
 
@@ -1389,7 +1389,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:349](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L349)
+[packages/lexical/src/LexicalEditor.ts:350](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L350)
 
 ___
 
@@ -1399,7 +1399,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:352](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L352)
+[packages/lexical/src/LexicalEditor.ts:353](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L353)
 
 ___
 
@@ -1409,7 +1409,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:350](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L350)
+[packages/lexical/src/LexicalEditor.ts:351](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L351)
 
 ___
 
@@ -1419,7 +1419,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:351](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L351)
+[packages/lexical/src/LexicalEditor.ts:352](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L352)
 
 ___
 
@@ -2336,7 +2336,7 @@ function $createTokenText(text: string): TextNode {
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:2105](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L2105)
+[packages/lexical/src/LexicalUtils.ts:2125](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L2125)
 
 ___
 
@@ -4396,7 +4396,7 @@ a LexicalEditor instance
 
 #### Defined in
 
-[packages/lexical/src/LexicalEditor.ts:505](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L505)
+[packages/lexical/src/LexicalEditor.ts:506](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalEditor.ts#L506)
 
 ___
 
