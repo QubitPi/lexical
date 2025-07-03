@@ -20,7 +20,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1240](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1240)
+[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1247](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1247)
 
 ___
 
@@ -433,7 +433,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1825](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1825)
+[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1832](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1832)
 
 ___
 
@@ -453,7 +453,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1830](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1830)
+[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1837](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1837)
 
 ___
 
@@ -990,7 +990,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1270](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1270)
+[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1277](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1277)
 
 ___
 
@@ -1037,7 +1037,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1264](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1264)
+[packages/lexical-table/src/LexicalTableSelectionHelpers.ts:1271](https://github.com/QubitPi/lexical/tree/main/packages/lexical-table/src/LexicalTableSelectionHelpers.ts#L1271)
 
 ___
 

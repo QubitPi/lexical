@@ -42,7 +42,7 @@ an object with the editor namespace and a list of serializable nodes as JavaScri
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:349](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L349)
+[packages/lexical-clipboard/src/clipboard.ts:392](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L392)
 
 ___
 
@@ -68,7 +68,7 @@ an Array of Lexical Node objects.
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:379](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L379)
+[packages/lexical-clipboard/src/clipboard.ts:422](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L422)
 
 ___
 
@@ -94,7 +94,7 @@ LexicalClipboardData
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:519](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L519)
+[packages/lexical-clipboard/src/clipboard.ts:562](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L562)
 
 ___
 
@@ -122,7 +122,7 @@ a string of HTML content
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:51](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L51)
+[packages/lexical-clipboard/src/clipboard.ts:55](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L55)
 
 ___
 
@@ -148,7 +148,7 @@ in the current selection).
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:80](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L80)
+[packages/lexical-clipboard/src/clipboard.ts:84](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L84)
 
 ___
 
@@ -173,7 +173,7 @@ text/uri-list is only used if text/plain is not also provided.
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:107](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L107)
+[packages/lexical-clipboard/src/clipboard.ts:111](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L111)
 
 ___
 
@@ -199,7 +199,7 @@ object into the editor at the provided selection.
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:128](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L128)
+[packages/lexical-clipboard/src/clipboard.ts:132](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L132)
 
 ___
 
@@ -226,7 +226,7 @@ to insert nodes into the editor at a specific selection point, you probably want
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:219](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L219)
+[packages/lexical-clipboard/src/clipboard.ts:223](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L223)
 
 ___
 
@@ -252,7 +252,7 @@ formats.
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:408](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L408)
+[packages/lexical-clipboard/src/clipboard.ts:451](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L451)
 
 ___
 
@@ -276,4 +276,4 @@ in the given data (from [$getClipboardDataFromSelection](lexical_clipboard.md#$g
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:544](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L544)
+[packages/lexical-clipboard/src/clipboard.ts:587](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L587)

@@ -14,7 +14,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:37](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L37)
+[packages/lexical-clipboard/src/clipboard.ts:41](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L41)
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:36](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L36)
+[packages/lexical-clipboard/src/clipboard.ts:40](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L40)
 
 ___
 
@@ -34,4 +34,4 @@ ___
 
 #### Defined in
 
-[packages/lexical-clipboard/src/clipboard.ts:38](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L38)
+[packages/lexical-clipboard/src/clipboard.ts:42](https://github.com/QubitPi/lexical/tree/main/packages/lexical-clipboard/src/clipboard.ts#L42)
