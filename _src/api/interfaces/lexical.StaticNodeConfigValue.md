@@ -51,7 +51,7 @@ that provides better type inference.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:116](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L116)
+[packages/lexical/src/LexicalNode.ts:117](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L117)
 
 ___
 
@@ -78,7 +78,7 @@ that provides better type inference.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:111](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L111)
+[packages/lexical/src/LexicalNode.ts:112](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L112)
 
 ___
 
@@ -96,7 +96,7 @@ types for your node class might be missing some of that.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:162](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L162)
+[packages/lexical/src/LexicalNode.ts:163](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L163)
 
 ___
 
@@ -108,7 +108,7 @@ An alternative to the static importDOM() method
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:120](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L120)
+[packages/lexical/src/LexicalNode.ts:121](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L121)
 
 ___
 
@@ -149,7 +149,7 @@ class MyNode extends TextNode {
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:152](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L152)
+[packages/lexical/src/LexicalNode.ts:153](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L153)
 
 ___
 
@@ -162,4 +162,4 @@ have a more generic 'string' type to be compatible wtih subclassing.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:106](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L106)
+[packages/lexical/src/LexicalNode.ts:107](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L107)

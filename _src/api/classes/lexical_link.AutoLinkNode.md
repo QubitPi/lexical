@@ -284,7 +284,7 @@ LinkNode.getType
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:554](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L554)
+[packages/lexical/src/LexicalNode.ts:557](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L557)
 
 ___
 

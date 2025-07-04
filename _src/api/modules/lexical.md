@@ -77,7 +77,7 @@ overridden by subclasses.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:169](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L169)
+[packages/lexical/src/LexicalNode.ts:170](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L170)
 
 ___
 
@@ -248,7 +248,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:350](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L350)
+[packages/lexical/src/LexicalNode.ts:351](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L351)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:341](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L341)
+[packages/lexical/src/LexicalNode.ts:342](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L342)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:346](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L346)
+[packages/lexical/src/LexicalNode.ts:347](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L347)
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:355](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L355)
+[packages/lexical/src/LexicalNode.ts:356](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L356)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:361](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L361)
+[packages/lexical/src/LexicalNode.ts:362](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L362)
 
 ___
 
@@ -352,7 +352,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:372](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L372)
+[packages/lexical/src/LexicalNode.ts:373](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L373)
 
 ___
 
@@ -362,7 +362,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:367](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L367)
+[packages/lexical/src/LexicalNode.ts:368](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L368)
 
 ___
 
@@ -692,7 +692,7 @@ a more generic type to be compatible with subclassing.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:224](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L224)
+[packages/lexical/src/LexicalNode.ts:225](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L225)
 
 ___
 
@@ -740,7 +740,7 @@ Omit the children, type, and version properties from the given SerializedLexical
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:233](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L233)
+[packages/lexical/src/LexicalNode.ts:234](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L234)
 
 ___
 
@@ -811,7 +811,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:379](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L379)
+[packages/lexical/src/LexicalNode.ts:380](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L380)
 
 ___
 
@@ -821,7 +821,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:68](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L68)
+[packages/lexical/src/LexicalNode.ts:69](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L69)
 
 ___
 
@@ -988,7 +988,7 @@ The base type for all serialized nodes
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:73](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L73)
+[packages/lexical/src/LexicalNode.ts:74](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L74)
 
 ___
 
@@ -1146,7 +1146,7 @@ Used to extract the node and type from a StaticNodeConfigRecord
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:176](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L176)
+[packages/lexical/src/LexicalNode.ts:177](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L177)
 
 ___
 
@@ -4344,7 +4344,7 @@ DOMConversionMap.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:335](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L335)
+[packages/lexical/src/LexicalNode.ts:336](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L336)
 
 ___
 

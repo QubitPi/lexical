@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-react/src/shared/LexicalMenu.ts:631](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/shared/LexicalMenu.ts#L631)
+[packages/lexical-react/src/shared/LexicalMenu.ts:633](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/shared/LexicalMenu.ts#L633)
 
 ___
 

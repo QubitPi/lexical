@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:527](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L527)
+[packages/lexical/src/LexicalNode.ts:530](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L530)
 
 ## Methods
 
@@ -114,7 +114,7 @@ class MyNode extends TextNode {
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:446](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L446)
+[packages/lexical/src/LexicalNode.ts:449](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L449)
 
 ___
 
@@ -187,7 +187,7 @@ class ClassesTextNode extends TextNode {
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:515](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L515)
+[packages/lexical/src/LexicalNode.ts:518](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L518)
 
 ___
 
@@ -237,7 +237,7 @@ for example usage.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:455](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L455)
+[packages/lexical/src/LexicalNode.ts:458](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L458)
 
 ___
 
@@ -282,7 +282,7 @@ The creation logic for any required parent. Should be implemented if [isParentRe
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1369](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1369)
+[packages/lexical/src/LexicalNode.ts:1372](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1372)
 
 ___
 
@@ -339,7 +339,7 @@ also use this method to build your own HTML renderer.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1079](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1079)
+[packages/lexical/src/LexicalNode.ts:1082](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1082)
 
 ___
 
@@ -399,7 +399,7 @@ if one cannot be found.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:822](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L822)
+[packages/lexical/src/LexicalNode.ts:825](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L825)
 
 ___
 
@@ -419,7 +419,7 @@ Returns the zero-based index of this node within the parent.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:648](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L648)
+[packages/lexical/src/LexicalNode.ts:651](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L651)
 
 ___
 
@@ -439,7 +439,7 @@ Returns this nodes key.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:640](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L640)
+[packages/lexical/src/LexicalNode.ts:643](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L643)
 
 ___
 
@@ -460,7 +460,7 @@ This is used to avoid getting values from stale node references.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:973](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L973)
+[packages/lexical/src/LexicalNode.ts:976](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L976)
 
 ___
 
@@ -487,7 +487,7 @@ after this one in the same parent
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:793](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L793)
+[packages/lexical/src/LexicalNode.ts:796](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L796)
 
 ___
 
@@ -514,7 +514,7 @@ one and the last child of it's parent, inclusive.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:804](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L804)
+[packages/lexical/src/LexicalNode.ts:807](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L807)
 
 ___
 
@@ -541,7 +541,7 @@ the target node in the EditorState.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:892](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L892)
+[packages/lexical/src/LexicalNode.ts:895](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L895)
 
 ___
 
@@ -567,7 +567,7 @@ Returns the parent of this node, or null if none is found.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:668](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L668)
+[packages/lexical/src/LexicalNode.ts:671](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L671)
 
 ___
 
@@ -588,7 +588,7 @@ all the way up to the RootNode.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:745](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L745)
+[packages/lexical/src/LexicalNode.ts:748](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L748)
 
 ___
 
@@ -614,7 +614,7 @@ Returns the parent of this node, or throws if none is found.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:679](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L679)
+[packages/lexical/src/LexicalNode.ts:682](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L682)
 
 ___
 
@@ -635,7 +635,7 @@ all the way up to the RootNode.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:730](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L730)
+[packages/lexical/src/LexicalNode.ts:733](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L733)
 
 ___
 
@@ -662,7 +662,7 @@ before this one in the same parent.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:760](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L760)
+[packages/lexical/src/LexicalNode.ts:763](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L763)
 
 ___
 
@@ -689,7 +689,7 @@ this one and the first child of it's parent, inclusive.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:771](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L771)
+[packages/lexical/src/LexicalNode.ts:774](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L774)
 
 ___
 
@@ -711,7 +711,7 @@ format (for copy + paste, for example)
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1023](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1023)
+[packages/lexical/src/LexicalNode.ts:1026](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1026)
 
 ___
 
@@ -731,7 +731,7 @@ Returns the length of the string produced by calling getTextContent on this node
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1031](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1031)
+[packages/lexical/src/LexicalNode.ts:1034](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1034)
 
 ___
 
@@ -795,7 +795,7 @@ Returns the string type of this node.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:554](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L554)
+[packages/lexical/src/LexicalNode.ts:557](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L557)
 
 ___
 
@@ -817,7 +817,7 @@ if necessary. Will throw an error if called outside of a Lexical Editor
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:990](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L990)
+[packages/lexical/src/LexicalNode.ts:993](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L993)
 
 ___
 
@@ -844,7 +844,7 @@ Inserts a node after this LexicalNode (as the next sibling).
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1254](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1254)
+[packages/lexical/src/LexicalNode.ts:1257](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1257)
 
 ___
 
@@ -871,7 +871,7 @@ Inserts a node before this LexicalNode (as the previous sibling).
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1321](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1321)
+[packages/lexical/src/LexicalNode.ts:1324](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1324)
 
 ___
 
@@ -898,7 +898,7 @@ Always use this instead of referential equality.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:839](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L839)
+[packages/lexical/src/LexicalNode.ts:842](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L842)
 
 ___
 
@@ -920,7 +920,7 @@ won't be reconciled and will ultimately be cleaned up by the Lexical GC.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:571](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L571)
+[packages/lexical/src/LexicalNode.ts:574](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L574)
 
 ___
 
@@ -952,7 +952,7 @@ more flexible ways to determine the relative positions of nodes.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:857](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L857)
+[packages/lexical/src/LexicalNode.ts:860](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L860)
 
 ___
 
@@ -972,7 +972,7 @@ Returns true if this node has been marked dirty during this update cycle.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:962](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L962)
+[packages/lexical/src/LexicalNode.ts:965](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L965)
 
 ___
 
@@ -1052,7 +1052,7 @@ Returns true if this node is an ancestor of and distinct from the target node, f
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:880](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L880)
+[packages/lexical/src/LexicalNode.ts:883](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L883)
 
 ___
 
@@ -1074,7 +1074,7 @@ a ListNode parent or TextNodes with a ParagraphNode parent.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1361](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1361)
+[packages/lexical/src/LexicalNode.ts:1364](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1364)
 
 ___
 
@@ -1102,7 +1102,7 @@ what's included.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:595](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L595)
+[packages/lexical/src/LexicalNode.ts:598](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L598)
 
 ___
 
@@ -1123,7 +1123,7 @@ forcing it to be reconciled during the update cycle.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1430](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1430)
+[packages/lexical/src/LexicalNode.ts:1433](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1433)
 
 ___
 
@@ -1150,7 +1150,7 @@ somewhere, the Lexical garbage collector will eventually clean it up.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1173](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1173)
+[packages/lexical/src/LexicalNode.ts:1176](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1176)
 
 ___
 
@@ -1184,7 +1184,7 @@ of the replaced node to the replacing node.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1184](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1184)
+[packages/lexical/src/LexicalNode.ts:1187](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1187)
 
 ___
 
@@ -1202,7 +1202,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1377](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1377)
+[packages/lexical/src/LexicalNode.ts:1380](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1380)
 
 ___
 
@@ -1229,7 +1229,7 @@ Moves selection to the next sibling of this node, at the specified offsets.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1409](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1409)
+[packages/lexical/src/LexicalNode.ts:1412](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1412)
 
 ___
 
@@ -1256,7 +1256,7 @@ Moves selection to the previous sibling of this node, at the specified offsets.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1387](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1387)
+[packages/lexical/src/LexicalNode.ts:1390](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1390)
 
 ___
 
@@ -1274,7 +1274,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1373](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1373)
+[packages/lexical/src/LexicalNode.ts:1376](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1376)
 
 ___
 
@@ -1400,7 +1400,7 @@ implement this method.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:423](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L423)
+[packages/lexical/src/LexicalNode.ts:426](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L426)
 
 ___
 
@@ -1422,7 +1422,7 @@ on the editor.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:409](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L409)
+[packages/lexical/src/LexicalNode.ts:410](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L410)
 
 ___
 
@@ -1451,7 +1451,7 @@ See [Serialization & Deserialization](https://lexical.dev/docs/concepts/serializ
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1108](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1108)
+[packages/lexical/src/LexicalNode.ts:1111](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1111)
 
 ___
 
@@ -1475,4 +1475,4 @@ Experimental - use at your own risk.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNode.ts:1159](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1159)
+[packages/lexical/src/LexicalNode.ts:1162](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNode.ts#L1162)
