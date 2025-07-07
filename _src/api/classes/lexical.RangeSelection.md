@@ -167,7 +167,7 @@ Handles different node types.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1716](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1716)
+[packages/lexical/src/LexicalSelection.ts:1726](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1726)
 
 ___
 
@@ -190,7 +190,7 @@ Handles different node types.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1890](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1890)
+[packages/lexical/src/LexicalSelection.ts:1900](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1900)
 
 ___
 
@@ -213,7 +213,7 @@ Handles different node types.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1910](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1910)
+[packages/lexical/src/LexicalSelection.ts:1920](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1920)
 
 ___
 
@@ -236,7 +236,7 @@ The nodes in the Selection
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1479](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1479)
+[packages/lexical/src/LexicalSelection.ts:1489](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1489)
 
 ___
 
@@ -260,7 +260,7 @@ merging nodes as necessary.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1164](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1164)
+[packages/lexical/src/LexicalSelection.ts:1174](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1174)
 
 ___
 
@@ -285,7 +285,7 @@ like a table, columns layout being destroyed
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1684](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1684)
+[packages/lexical/src/LexicalSelection.ts:1694](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1694)
 
 ___
 
@@ -349,7 +349,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1931](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1931)
+[packages/lexical/src/LexicalSelection.ts:1941](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1941)
 
 ___
 
@@ -396,7 +396,7 @@ true if the provided format is currently toggled on on the Selection, false othe
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:719](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L719)
+[packages/lexical/src/LexicalSelection.ts:729](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L729)
 
 ___
 
@@ -419,7 +419,7 @@ current Selection.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1462](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1462)
+[packages/lexical/src/LexicalSelection.ts:1472](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1472)
 
 ___
 
@@ -447,7 +447,7 @@ should be changed, replaced, or moved to accommodate the incoming ones.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1315](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1315)
+[packages/lexical/src/LexicalSelection.ts:1325](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1325)
 
 ___
 
@@ -465,7 +465,7 @@ the newly inserted node.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1431](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1431)
+[packages/lexical/src/LexicalSelection.ts:1441](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1441)
 
 ___
 
@@ -492,7 +492,7 @@ converts tabs, newlines, and carriage returns into LexicalNodes.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:730](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L730)
+[packages/lexical/src/LexicalSelection.ts:740](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L740)
 
 ___
 
@@ -518,7 +518,7 @@ Insert the provided text into the EditorState at the current Selection.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:752](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L752)
+[packages/lexical/src/LexicalSelection.ts:762](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L762)
 
 ___
 
@@ -570,7 +570,7 @@ true if the Selection is backwards, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1927](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1927)
+[packages/lexical/src/LexicalSelection.ts:1937](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1937)
 
 ___
 
@@ -619,7 +619,7 @@ dealing explicitly with all the possible node types.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1537](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1537)
+[packages/lexical/src/LexicalSelection.ts:1547](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1547)
 
 ___
 
@@ -635,7 +635,7 @@ Removes the text in the Selection, adjusting the EditorState accordingly.
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1147](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1147)
+[packages/lexical/src/LexicalSelection.ts:1157](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1157)
 
 ___
 
@@ -663,6 +663,28 @@ ___
 
 ___
 
+### setFormat
+
+▸ **setFormat**(`format`): `void`
+
+Sets the value of the format property on the Selection
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `format` | `number` | the format to set at the value of the format property. |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/lexical/src/LexicalSelection.ts:707](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L707)
+
+___
+
 ### setStyle
 
 ▸ **setStyle**(`style`): `void`
@@ -681,7 +703,7 @@ Sets the value of the style property on the Selection
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:707](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L707)
+[packages/lexical/src/LexicalSelection.ts:717](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L717)
 
 ___
 

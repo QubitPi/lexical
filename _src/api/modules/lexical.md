@@ -2364,7 +2364,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2549](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2549)
+[packages/lexical/src/LexicalSelection.ts:2559](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2559)
 
 ___
 
@@ -2414,7 +2414,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2543](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2543)
+[packages/lexical/src/LexicalSelection.ts:2553](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2553)
 
 ___
 
@@ -2435,7 +2435,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2572](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2572)
+[packages/lexical/src/LexicalSelection.ts:2582](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2582)
 
 ___
 
@@ -2709,7 +2709,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1952](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1952)
+[packages/lexical/src/LexicalSelection.ts:1962](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1962)
 
 ___
 
@@ -3022,7 +3022,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2709](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2709)
+[packages/lexical/src/LexicalSelection.ts:2719](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2719)
 
 ___
 
@@ -3050,7 +3050,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2704](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2704)
+[packages/lexical/src/LexicalSelection.ts:2714](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2714)
 
 ___
 
@@ -3204,7 +3204,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:3106](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3106)
+[packages/lexical/src/LexicalSelection.ts:3116](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3116)
 
 ___
 
@@ -3386,7 +3386,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:3097](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3097)
+[packages/lexical/src/LexicalSelection.ts:3107](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3107)
 
 ___
 
@@ -3406,7 +3406,7 @@ node is ElementNode
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2513](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2513)
+[packages/lexical/src/LexicalSelection.ts:2523](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2523)
 
 ___
 
@@ -3624,7 +3624,7 @@ x is NodeSelection
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:1936](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1936)
+[packages/lexical/src/LexicalSelection.ts:1946](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L1946)
 
 ___
 
