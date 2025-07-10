@@ -64,7 +64,7 @@ useful when this is used as a generic constraint.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:288](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L288)
+[packages/lexical/src/LexicalNodeState.ts:290](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L290)
 
 ___
 
@@ -849,7 +849,7 @@ The NodeState JSON produced by this LexicalNode
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:149](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L149)
+[packages/lexical/src/LexicalNodeState.ts:151](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L151)
 
 ___
 
@@ -1079,7 +1079,7 @@ Get the key type (K) from a StateConfig
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:36](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L36)
+[packages/lexical/src/LexicalNodeState.ts:38](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L38)
 
 ___
 
@@ -1097,7 +1097,7 @@ Get the value type (V) from a StateConfig
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:27](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L27)
+[packages/lexical/src/LexicalNodeState.ts:29](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L29)
 
 ___
 
@@ -1127,7 +1127,7 @@ class MyClass extends TextNode {
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:63](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L63)
+[packages/lexical/src/LexicalNodeState.ts:65](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L65)
 
 ___
 
@@ -1297,7 +1297,7 @@ A value type, or an updater for that value type. For use with
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:47](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L47)
+[packages/lexical/src/LexicalNodeState.ts:49](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L49)
 
 ## Variables
 
@@ -3150,7 +3150,7 @@ The current value from the state, or the default value provided by the configura
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:329](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L329)
+[packages/lexical/src/LexicalNodeState.ts:331](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L331)
 
 ___
 
@@ -3190,7 +3190,7 @@ version argument is used for both nodes.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:357](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L357)
+[packages/lexical/src/LexicalNodeState.ts:359](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L359)
 
 ___
 
@@ -4244,7 +4244,7 @@ $setState(node, counterState, (prev) => !prev);
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:390](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L390)
+[packages/lexical/src/LexicalNodeState.ts:392](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L392)
 
 ___
 
@@ -4434,7 +4434,7 @@ a StateConfig
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:303](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L303)
+[packages/lexical/src/LexicalNodeState.ts:305](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L305)
 
 ___
 

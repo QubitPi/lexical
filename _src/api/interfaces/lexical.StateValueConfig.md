@@ -84,7 +84,7 @@ more appropriate for your use case.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:232](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L232)
+[packages/lexical/src/LexicalNodeState.ts:234](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L234)
 
 ___
 
@@ -126,7 +126,7 @@ from an updater function.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:215](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L215)
+[packages/lexical/src/LexicalNodeState.ts:217](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L217)
 
 ___
 
@@ -155,4 +155,4 @@ This is mandatory when V is not a JSON serializable type.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:222](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L222)
+[packages/lexical/src/LexicalNodeState.ts:224](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L224)

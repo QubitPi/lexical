@@ -42,7 +42,7 @@ The return value of [createState](../modules/lexical.md#createstate), for use wi
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:261](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L261)
+[packages/lexical/src/LexicalNodeState.ts:263](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L263)
 
 ## Properties
 
@@ -56,7 +56,7 @@ the `defaultValue`, it will not be serialized to JSON.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:260](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L260)
+[packages/lexical/src/LexicalNodeState.ts:262](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L262)
 
 ___
 
@@ -84,7 +84,7 @@ Object.is.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:254](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L254)
+[packages/lexical/src/LexicalNodeState.ts:256](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L256)
 
 ___
 
@@ -96,7 +96,7 @@ The string key used when serializing this state to JSON
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:241](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L241)
+[packages/lexical/src/LexicalNodeState.ts:243](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L243)
 
 ___
 
@@ -122,7 +122,7 @@ The parse function from the StateValueConfig passed to createState
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:243](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L243)
+[packages/lexical/src/LexicalNodeState.ts:245](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L245)
 
 ___
 
@@ -150,4 +150,4 @@ JSON serializable.
 
 #### Defined in
 
-[packages/lexical/src/LexicalNodeState.ts:249](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L249)
+[packages/lexical/src/LexicalNodeState.ts:251](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalNodeState.ts#L251)
