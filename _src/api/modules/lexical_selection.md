@@ -130,7 +130,7 @@ The value of the property for the selected TextNodes.
 
 #### Defined in
 
-[packages/lexical-selection/src/range-selection.ts:585](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L585)
+[packages/lexical-selection/src/range-selection.ts:590](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L590)
 
 ___
 
@@ -178,7 +178,7 @@ true if the selections' parent element has a direction of 'rtl' (right to left),
 
 #### Defined in
 
-[packages/lexical-selection/src/range-selection.ts:506](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L506)
+[packages/lexical-selection/src/range-selection.ts:511](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L511)
 
 ___
 
@@ -203,7 +203,7 @@ Moves the selection according to the arguments.
 
 #### Defined in
 
-[packages/lexical-selection/src/range-selection.ts:492](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L492)
+[packages/lexical-selection/src/range-selection.ts:497](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L497)
 
 ___
 
@@ -227,7 +227,7 @@ Moves selection by character according to arguments.
 
 #### Defined in
 
-[packages/lexical-selection/src/range-selection.ts:521](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L521)
+[packages/lexical-selection/src/range-selection.ts:526](https://github.com/QubitPi/lexical/tree/main/packages/lexical-selection/src/range-selection.ts#L526)
 
 ___
 
