@@ -9,15 +9,21 @@ custom_edit_url: null
 - [CodeHighlightNode](../classes/lexical_code.CodeHighlightNode.md)
 - [CodeNode](../classes/lexical_code.CodeNode.md)
 
+## References
+
+### normalizeCodeLanguage
+
+Renames and re-exports [normalizeCodeLang](lexical_code.md#normalizecodelang)
+
 ## Type Aliases
 
 ### SerializedCodeNode
 
-Ƭ **SerializedCodeNode**: [`Spread`](lexical.md#spread)\<\{ `language`: `string` \| ``null`` \| `undefined`  }, [`SerializedElementNode`](lexical.md#serializedelementnode)\>
+Ƭ **SerializedCodeNode**: [`Spread`](lexical.md#spread)\<\{ `language`: `string` \| ``null`` \| `undefined` ; `theme?`: `string`  }, [`SerializedElementNode`](lexical.md#serializedelementnode)\>
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:44](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L44)
+[packages/lexical-code/src/CodeNode.ts:43](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L43)
 
 ## Variables
 
@@ -27,7 +33,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:48](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L48)
+[packages/lexical-code/src/FacadePrism.ts:45](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FacadePrism.ts#L45)
 
 ___
 
@@ -37,7 +43,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:68](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L68)
+[packages/lexical-code/src/FacadePrism.ts:65](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FacadePrism.ts#L65)
 
 ___
 
@@ -47,7 +53,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:39](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L39)
+[packages/lexical-code/src/CodeNode.ts:51](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L51)
 
 ___
 
@@ -57,7 +63,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlighter.ts:76](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlighter.ts#L76)
+[packages/lexical-code/src/CodeHighlighterPrism.ts:81](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlighterPrism.ts#L81)
 
 ## Functions
 
@@ -78,19 +84,20 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:218](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L218)
+[packages/lexical-code/src/CodeHighlightNode.ts:153](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L153)
 
 ___
 
 ### $createCodeNode
 
-▸ **$createCodeNode**(`language?`): [`CodeNode`](../classes/lexical_code.CodeNode.md)
+▸ **$createCodeNode**(`language?`, `theme?`): [`CodeNode`](../classes/lexical_code.CodeNode.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `language?` | ``null`` \| `string` |
+| `theme?` | ``null`` \| `string` |
 
 #### Returns
 
@@ -98,7 +105,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:355](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L355)
+[packages/lexical-code/src/CodeNode.ts:409](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L409)
 
 ___
 
@@ -118,7 +125,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlighter.ts:199](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlighter.ts#L199)
+[packages/lexical-code/src/FlatStructureUtils.ts:167](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FlatStructureUtils.ts#L167)
 
 ___
 
@@ -138,7 +145,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:249](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L249)
+[packages/lexical-code/src/FlatStructureUtils.ts:42](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FlatStructureUtils.ts#L42)
 
 ___
 
@@ -158,7 +165,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:255](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L255)
+[packages/lexical-code/src/FlatStructureUtils.ts:48](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FlatStructureUtils.ts#L48)
 
 ___
 
@@ -179,7 +186,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlighter.ts:86](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlighter.ts#L86)
+[packages/lexical-code/src/FlatStructureUtils.ts:54](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FlatStructureUtils.ts#L54)
 
 ___
 
@@ -199,7 +206,7 @@ node is CodeHighlightNode
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:225](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L225)
+[packages/lexical-code/src/CodeHighlightNode.ts:160](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L160)
 
 ___
 
@@ -219,7 +226,21 @@ node is CodeNode
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:361](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L361)
+[packages/lexical-code/src/CodeNode.ts:416](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L416)
+
+___
+
+### getCodeLanguageOptions
+
+▸ **getCodeLanguageOptions**(): [`string`, `string`][]
+
+#### Returns
+
+[`string`, `string`][]
+
+#### Defined in
+
+[packages/lexical-code/src/FacadePrism.ts:94](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FacadePrism.ts#L94)
 
 ___
 
@@ -233,7 +254,21 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:90](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L90)
+[packages/lexical-code/src/FacadePrism.ts:85](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FacadePrism.ts#L85)
+
+___
+
+### getCodeThemeOptions
+
+▸ **getCodeThemeOptions**(): [`string`, `string`][]
+
+#### Returns
+
+[`string`, `string`][]
+
+#### Defined in
+
+[packages/lexical-code/src/FacadePrism.ts:107](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FacadePrism.ts#L107)
 
 ___
 
@@ -247,7 +282,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:88](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L88)
+[packages/lexical-code/src/CodeNode.ts:52](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L52)
 
 ___
 
@@ -271,7 +306,7 @@ renamed to [$getEndOfCodeInLine](lexical_code.md#$getendofcodeinline) by @lexica
 
 #### Defined in
 
-[packages/lexical-code/src/index.ts:43](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L43)
+[packages/lexical-code/src/index.ts:52](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L52)
 
 ___
 
@@ -295,7 +330,7 @@ renamed to [$getFirstCodeNodeOfLine](lexical_code.md#$getfirstcodenodeofline) by
 
 #### Defined in
 
-[packages/lexical-code/src/index.ts:39](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L39)
+[packages/lexical-code/src/index.ts:48](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L48)
 
 ___
 
@@ -315,7 +350,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:83](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L83)
+[packages/lexical-code/src/FacadePrism.ts:80](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FacadePrism.ts#L80)
 
 ___
 
@@ -339,7 +374,7 @@ renamed to [$getLastCodeNodeOfLine](lexical_code.md#$getlastcodenodeofline) by @
 
 #### Defined in
 
-[packages/lexical-code/src/index.ts:41](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L41)
+[packages/lexical-code/src/index.ts:50](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L50)
 
 ___
 
@@ -364,7 +399,7 @@ renamed to [$getStartOfCodeInLine](lexical_code.md#$getstartofcodeinline) by @le
 
 #### Defined in
 
-[packages/lexical-code/src/index.ts:45](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L45)
+[packages/lexical-code/src/index.ts:54](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/index.ts#L54)
 
 ___
 
@@ -384,7 +419,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:79](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L79)
+[packages/lexical-code/src/FacadePrism.ts:76](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/FacadePrism.ts#L76)
 
 ___
 
@@ -411,4 +446,4 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlighter.ts:903](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlighter.ts#L903)
+[packages/lexical-code/src/CodeHighlighterPrism.ts:752](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlighterPrism.ts#L752)

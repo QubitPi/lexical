@@ -35,9 +35,82 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:104](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L104)
+[packages/lexical-code/src/CodeNode.ts:85](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L85)
 
 ## Methods
+
+### afterCloneFrom
+
+▸ **afterCloneFrom**(`prevNode`): `void`
+
+Perform any state updates on the clone of prevNode that are not already
+handled by the constructor call in the static clone method. If you have
+state to update in your clone that is not handled directly by the
+constructor, it is advisable to override this method but it is required
+to include a call to `super.afterCloneFrom(prevNode)` in your
+implementation. This is only intended to be called by
+[$cloneWithProperties](../modules/lexical.md#$clonewithproperties) function or via a super call.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `prevNode` | `this` |
+
+#### Returns
+
+`void`
+
+**`Example`**
+
+```ts
+class ClassesTextNode extends TextNode {
+  // Not shown: static getType, static importJSON, exportJSON, createDOM, updateDOM
+  __classes = new Set<string>();
+  static clone(node: ClassesTextNode): ClassesTextNode {
+    // The inherited TextNode constructor is used here, so
+    // classes is not set by this method.
+    return new ClassesTextNode(node.__text, node.__key);
+  }
+  afterCloneFrom(node: this): void {
+    // This calls TextNode.afterCloneFrom and LexicalNode.afterCloneFrom
+    // for necessary state updates
+    super.afterCloneFrom(node);
+    this.__addClasses(node.__classes);
+  }
+  // This method is a private implementation detail, it is not
+  // suitable for the public API because it does not call getWritable
+  __addClasses(classNames: Iterable<string>): this {
+    for (const className of classNames) {
+      this.__classes.add(className);
+    }
+    return this;
+  }
+  addClass(...classNames: string[]): this {
+    return this.getWritable().__addClasses(classNames);
+  }
+  removeClass(...classNames: string[]): this {
+    const node = this.getWritable();
+    for (const className of classNames) {
+      this.__classes.delete(className);
+    }
+    return this;
+  }
+  getClasses(): Set<string> {
+    return this.getLatest().__classes;
+  }
+}
+```
+
+#### Overrides
+
+[ElementNode](lexical.ElementNode.md).[afterCloneFrom](lexical.ElementNode.md#afterclonefrom)
+
+#### Defined in
+
+[packages/lexical-code/src/CodeNode.ts:92](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L92)
+
+___
 
 ### canIndent
 
@@ -53,7 +126,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:326](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L326)
+[packages/lexical-code/src/CodeNode.ts:366](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L366)
 
 ___
 
@@ -71,7 +144,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:330](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L330)
+[packages/lexical-code/src/CodeNode.ts:370](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L370)
 
 ___
 
@@ -102,7 +175,7 @@ Do not attempt to update the Lexical EditorState during this phase of the update
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:111](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L111)
+[packages/lexical-code/src/CodeNode.ts:100](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L100)
 
 ___
 
@@ -132,7 +205,7 @@ also use this method to build your own HTML renderer.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:147](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L147)
+[packages/lexical-code/src/CodeNode.ts:175](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L175)
 
 ___
 
@@ -155,7 +228,7 @@ See [Serialization & Deserialization](https://lexical.dev/docs/concepts/serializ
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:239](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L239)
+[packages/lexical-code/src/CodeNode.ts:278](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L278)
 
 ___
 
@@ -169,7 +242,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:350](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L350)
+[packages/lexical-code/src/CodeNode.ts:394](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L394)
 
 ___
 
@@ -183,7 +256,21 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:346](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L346)
+[packages/lexical-code/src/CodeNode.ts:384](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L384)
+
+___
+
+### getTheme
+
+▸ **getTheme**(): `undefined` \| `string`
+
+#### Returns
+
+`undefined` \| `string`
+
+#### Defined in
+
+[packages/lexical-code/src/CodeNode.ts:404](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L404)
 
 ___
 
@@ -208,7 +295,27 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:247](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L247)
+[packages/lexical-code/src/CodeNode.ts:287](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L287)
+
+___
+
+### setIsSyntaxHighlightSupported
+
+▸ **setIsSyntaxHighlightSupported**(`isSupported`): `this`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `isSupported` | `boolean` |
+
+#### Returns
+
+`this`
+
+#### Defined in
+
+[packages/lexical-code/src/CodeNode.ts:388](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L388)
 
 ___
 
@@ -228,7 +335,27 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:338](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L338)
+[packages/lexical-code/src/CodeNode.ts:378](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L378)
+
+___
+
+### setTheme
+
+▸ **setTheme**(`theme`): `this`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `theme` | `undefined` \| ``null`` \| `string` |
+
+#### Returns
+
+`this`
+
+#### Defined in
+
+[packages/lexical-code/src/CodeNode.ts:398](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L398)
 
 ___
 
@@ -262,7 +389,7 @@ for instance.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:125](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L125)
+[packages/lexical-code/src/CodeNode.ts:123](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L123)
 
 ___
 
@@ -314,7 +441,7 @@ class MyTextNode extends TextNode {
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:233](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L233)
+[packages/lexical-code/src/CodeNode.ts:271](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L271)
 
 ___
 
@@ -342,7 +469,7 @@ implement this method.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:100](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L100)
+[packages/lexical-code/src/CodeNode.ts:81](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L81)
 
 ___
 
@@ -364,7 +491,7 @@ on the editor.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:96](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L96)
+[packages/lexical-code/src/CodeNode.ts:77](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L77)
 
 ___
 
@@ -382,7 +509,7 @@ ElementNode.importDOM
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:162](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L162)
+[packages/lexical-code/src/CodeNode.ts:200](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L200)
 
 ___
 
@@ -411,4 +538,4 @@ See [Serialization & Deserialization](https://lexical.dev/docs/concepts/serializ
 
 #### Defined in
 
-[packages/lexical-code/src/CodeNode.ts:229](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L229)
+[packages/lexical-code/src/CodeNode.ts:267](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeNode.ts#L267)

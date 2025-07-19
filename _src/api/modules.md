@@ -9,6 +9,7 @@ custom_edit_url: null
 
 - [@lexical/clipboard](modules/lexical_clipboard.md)
 - [@lexical/code](modules/lexical_code.md)
+- [@lexical/code-shiki](modules/lexical_code_shiki.md)
 - [@lexical/devtools-core](modules/lexical_devtools_core.md)
 - [@lexical/dragon](modules/lexical_dragon.md)
 - [@lexical/eslint-plugin](modules/lexical_eslint_plugin.md)

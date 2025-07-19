@@ -36,7 +36,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:104](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L104)
+[packages/lexical-code/src/CodeHighlightNode.ts:39](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L39)
 
 ## Methods
 
@@ -56,7 +56,7 @@ true if the text node supports font styling, false otherwise.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:136](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L136)
+[packages/lexical-code/src/CodeHighlightNode.ts:71](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L71)
 
 ___
 
@@ -87,7 +87,7 @@ Do not attempt to update the Lexical EditorState during this phase of the update
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:140](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L140)
+[packages/lexical-code/src/CodeHighlightNode.ts:75](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L75)
 
 ___
 
@@ -107,7 +107,7 @@ The creation logic for any required parent. Should be implemented if [isParentRe
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:201](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L201)
+[packages/lexical-code/src/CodeHighlightNode.ts:136](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L136)
 
 ___
 
@@ -130,7 +130,7 @@ See [Serialization & Deserialization](https://lexical.dev/docs/concepts/serializ
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:185](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L185)
+[packages/lexical-code/src/CodeHighlightNode.ts:120](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L120)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:125](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L125)
+[packages/lexical-code/src/CodeHighlightNode.ts:60](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L60)
 
 ___
 
@@ -166,7 +166,7 @@ a ListNode parent or TextNodes with a ParagraphNode parent.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:197](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L197)
+[packages/lexical-code/src/CodeHighlightNode.ts:132](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L132)
 
 ___
 
@@ -197,7 +197,7 @@ this TextNode.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:193](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L193)
+[packages/lexical-code/src/CodeHighlightNode.ts:128](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L128)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:130](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L130)
+[packages/lexical-code/src/CodeHighlightNode.ts:65](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L65)
 
 ___
 
@@ -251,7 +251,7 @@ for instance.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:150](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L150)
+[packages/lexical-code/src/CodeHighlightNode.ts:85](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L85)
 
 ___
 
@@ -303,7 +303,7 @@ class MyTextNode extends TextNode {
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:177](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L177)
+[packages/lexical-code/src/CodeHighlightNode.ts:112](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L112)
 
 ___
 
@@ -331,7 +331,7 @@ implement this method.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:117](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L117)
+[packages/lexical-code/src/CodeHighlightNode.ts:52](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L52)
 
 ___
 
@@ -353,7 +353,7 @@ on the editor.
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:113](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L113)
+[packages/lexical-code/src/CodeHighlightNode.ts:48](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L48)
 
 ___
 
@@ -382,4 +382,4 @@ See [Serialization & Deserialization](https://lexical.dev/docs/concepts/serializ
 
 #### Defined in
 
-[packages/lexical-code/src/CodeHighlightNode.ts:171](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L171)
+[packages/lexical-code/src/CodeHighlightNode.ts:106](https://github.com/QubitPi/lexical/tree/main/packages/lexical-code/src/CodeHighlightNode.ts#L106)
