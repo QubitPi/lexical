@@ -27,4 +27,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:135](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L135)
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:140](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L140)

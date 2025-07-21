@@ -27,6 +27,7 @@ custom_edit_url: null
 | `options.$onSelect` | () => `void` |
 | `options.$showOn?` | (`node`: [`LexicalNode`](lexical.LexicalNode.md)) => `boolean` |
 | `options.disabled?` | `boolean` |
+| `options.icon?` | `Element` |
 
 #### Returns
 
@@ -38,7 +39,7 @@ MenuOption.constructor
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:50](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L50)
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:51](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L51)
 
 ## Properties
 
@@ -56,7 +57,7 @@ MenuOption.constructor
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:47](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L47)
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:48](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L48)
 
 ___
 
@@ -80,13 +81,23 @@ ___
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:48](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L48)
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:49](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L49)
 
 ___
 
 ### disabled
 
 • **disabled**: `boolean`
+
+#### Defined in
+
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:47](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L47)
+
+___
+
+### icon
+
+• **icon**: ``null`` \| `Element`
 
 #### Defined in
 

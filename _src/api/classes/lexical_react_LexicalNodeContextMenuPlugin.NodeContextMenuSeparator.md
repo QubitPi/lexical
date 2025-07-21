@@ -35,7 +35,7 @@ MenuOption.constructor
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:73](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L73)
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:76](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L76)
 
 ## Properties
 
@@ -59,7 +59,7 @@ MenuOption.constructor
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:71](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L71)
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:74](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L74)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:70](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L70)
+[packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx:73](https://github.com/QubitPi/lexical/tree/main/packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx#L73)
 
 ## Methods
 
