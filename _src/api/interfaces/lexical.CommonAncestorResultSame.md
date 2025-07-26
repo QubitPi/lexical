@@ -22,7 +22,7 @@ The two compared nodes are the same
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1294](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1294)
+[packages/lexical/src/caret/LexicalCaret.ts:1296](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1296)
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1293](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1293)
+[packages/lexical/src/caret/LexicalCaret.ts:1295](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1295)

@@ -22,7 +22,7 @@ Node a is an ancestor of node b, and not the same node
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1308](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1308)
+[packages/lexical/src/caret/LexicalCaret.ts:1310](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1310)
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1307](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1307)
+[packages/lexical/src/caret/LexicalCaret.ts:1309](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1309)

@@ -28,7 +28,7 @@ The ancestor of `a` that is a child of `commonAncestor`
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1323](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1323)
+[packages/lexical/src/caret/LexicalCaret.ts:1325](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1325)
 
 ___
 
@@ -40,7 +40,7 @@ The ancestor of `b` that is a child of `commonAncestor`
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1325](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1325)
+[packages/lexical/src/caret/LexicalCaret.ts:1327](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1327)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1321](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1321)
+[packages/lexical/src/caret/LexicalCaret.ts:1323](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1323)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1320](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1320)
+[packages/lexical/src/caret/LexicalCaret.ts:1322](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1322)

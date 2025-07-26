@@ -22,7 +22,7 @@ Node a was a descendant of node b, and not the same node
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1301](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1301)
+[packages/lexical/src/caret/LexicalCaret.ts:1303](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1303)
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1300](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1300)
+[packages/lexical/src/caret/LexicalCaret.ts:1302](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1302)

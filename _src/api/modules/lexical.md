@@ -199,7 +199,7 @@ The result of comparing two nodes that share some common ancestor
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1330](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1330)
+[packages/lexical/src/caret/LexicalCaret.ts:1332](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1332)
 
 ___
 
@@ -2100,7 +2100,7 @@ Dispatched on undo (Cmd+Z on macOS, Ctrl+Z elsewhere).
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1394](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1394)
+[packages/lexical/src/LexicalUtils.ts:1405](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1405)
 
 ___
 
@@ -2126,7 +2126,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1509](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1509)
+[packages/lexical/src/LexicalUtils.ts:1520](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1520)
 
 ___
 
@@ -2218,7 +2218,7 @@ The clone of the node.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1947](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1947)
+[packages/lexical/src/LexicalUtils.ts:1958](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1958)
 
 ___
 
@@ -2256,7 +2256,7 @@ on 'enter' (pre-order) and a SiblingCaret on 'leave' (post-order).
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1227](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1227)
+[packages/lexical/src/caret/LexicalCaret.ts:1229](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1229)
 
 ___
 
@@ -2290,7 +2290,7 @@ The copy of the node.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1502](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1502)
+[packages/lexical/src/LexicalUtils.ts:1513](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1513)
 
 ___
 
@@ -2336,7 +2336,7 @@ function $createTokenText(text: string): TextNode {
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:2125](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L2125)
+[packages/lexical/src/LexicalUtils.ts:2136](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L2136)
 
 ___
 
@@ -2364,7 +2364,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2559](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2559)
+[packages/lexical/src/LexicalSelection.ts:2569](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2569)
 
 ___
 
@@ -2414,7 +2414,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2553](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2553)
+[packages/lexical/src/LexicalSelection.ts:2563](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2563)
 
 ___
 
@@ -2435,7 +2435,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2582](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2582)
+[packages/lexical/src/LexicalSelection.ts:2592](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2592)
 
 ___
 
@@ -2498,7 +2498,7 @@ document in the anchor caret's direction.
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1125](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1125)
+[packages/lexical/src/caret/LexicalCaret.ts:1127](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1127)
 
 ___
 
@@ -2528,7 +2528,7 @@ style traversal of the tree.
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:975](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L975)
+[packages/lexical/src/caret/LexicalCaret.ts:977](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L977)
 
 ___
 
@@ -2549,7 +2549,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1248](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1248)
+[packages/lexical/src/LexicalUtils.ts:1259](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1259)
 
 ___
 
@@ -2654,7 +2654,7 @@ a CaretRange
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1154](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1154)
+[packages/lexical/src/caret/LexicalCaret.ts:1156](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1156)
 
 ___
 
@@ -2742,7 +2742,7 @@ null if origin is null or not an ElementNode, otherwise a ChildCaret for this or
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:948](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L948)
+[packages/lexical/src/caret/LexicalCaret.ts:950](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L950)
 
 ___
 
@@ -2803,7 +2803,7 @@ Gets the ChildCaret if one is possible at this caret origin, otherwise return th
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:962](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L962)
+[packages/lexical/src/caret/LexicalCaret.ts:964](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L964)
 
 ___
 
@@ -2831,7 +2831,7 @@ Construct a collapsed CaretRange that starts and ends at anchor.
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1134](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1134)
+[packages/lexical/src/caret/LexicalCaret.ts:1136](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1136)
 
 ___
 
@@ -2867,7 +2867,7 @@ A comparison result between the two nodes or null if they have no common ancesto
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1365](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1365)
+[packages/lexical/src/caret/LexicalCaret.ts:1367](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1367)
 
 ___
 
@@ -2896,7 +2896,7 @@ Return the ordering of siblings in a CommonAncestorResultBranch
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1270](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1270)
+[packages/lexical/src/caret/LexicalCaret.ts:1272](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1272)
 
 ___
 
@@ -2914,7 +2914,7 @@ Current active editor
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1884](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1884)
+[packages/lexical/src/LexicalUtils.ts:1895](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1895)
 
 ___
 
@@ -2935,7 +2935,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:546](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L546)
+[packages/lexical/src/LexicalUtils.ts:547](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L547)
 
 ___
 
@@ -2955,7 +2955,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1466](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1466)
+[packages/lexical/src/LexicalUtils.ts:1477](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1477)
 
 ___
 
@@ -2982,7 +2982,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:505](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L505)
+[packages/lexical/src/LexicalUtils.ts:506](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L506)
 
 ___
 
@@ -3008,7 +3008,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1575](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1575)
+[packages/lexical/src/LexicalUtils.ts:1586](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1586)
 
 ___
 
@@ -3022,7 +3022,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2719](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2719)
+[packages/lexical/src/LexicalSelection.ts:2725](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2725)
 
 ___
 
@@ -3036,7 +3036,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:614](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L614)
+[packages/lexical/src/LexicalUtils.ts:615](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L615)
 
 ___
 
@@ -3050,7 +3050,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2714](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2714)
+[packages/lexical/src/LexicalSelection.ts:2720](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2720)
 
 ___
 
@@ -3204,13 +3204,13 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:3116](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3116)
+[packages/lexical/src/LexicalSelection.ts:3122](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3122)
 
 ___
 
 ### $getTextNodeOffset
 
-▸ **$getTextNodeOffset**(`origin`, `offset`): `number`
+▸ **$getTextNodeOffset**(`origin`, `offset`, `mode?`): `number`
 
 Get a normalized offset into a TextNode given a numeric offset or a
 direction for which end of the string to use. Throws in dev if the offset
@@ -3218,10 +3218,11 @@ is not in the bounds of the text content size.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `origin` | [`TextNode`](../classes/lexical.TextNode.md) | a TextNode |
-| `offset` | `number` \| [`CaretDirection`](lexical.md#caretdirection) | An absolute offset into the TextNode string, or a direction for which end to use as the offset |
+| Name | Type | Default value | Description |
+| :------ | :------ | :------ | :------ |
+| `origin` | [`TextNode`](../classes/lexical.TextNode.md) | `undefined` | a TextNode |
+| `offset` | `number` \| [`CaretDirection`](lexical.md#caretdirection) | `undefined` | An absolute offset into the TextNode string, or a direction for which end to use as the offset |
+| `mode` | ``"error"`` \| ``"clamp"`` | `'error'` | If 'error' (the default) out of bounds offsets will be an error in dev. Otherwise it will clamp to a valid offset. |
 
 #### Returns
 
@@ -3231,7 +3232,7 @@ An absolute offset into the TextNode string
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:901](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L901)
+[packages/lexical/src/caret/LexicalCaret.ts:902](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L902)
 
 ___
 
@@ -3325,7 +3326,7 @@ TextPointCaretSlice
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:933](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L933)
+[packages/lexical/src/caret/LexicalCaret.ts:935](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L935)
 
 ___
 
@@ -3346,7 +3347,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1432](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1432)
+[packages/lexical/src/LexicalUtils.ts:1443](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1443)
 
 ___
 
@@ -3366,7 +3367,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1389](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1389)
+[packages/lexical/src/LexicalUtils.ts:1400](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1400)
 
 ___
 
@@ -3386,7 +3387,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:3107](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3107)
+[packages/lexical/src/LexicalSelection.ts:3113](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L3113)
 
 ___
 
@@ -3406,7 +3407,7 @@ node is ElementNode
 
 #### Defined in
 
-[packages/lexical/src/LexicalSelection.ts:2523](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2523)
+[packages/lexical/src/LexicalSelection.ts:2533](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalSelection.ts#L2533)
 
 ___
 
@@ -3534,7 +3535,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1459](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1459)
+[packages/lexical/src/LexicalUtils.ts:1470](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1470)
 
 ___
 
@@ -3554,7 +3555,7 @@ node is DecoratorNode\<unknown\> \| TextNode \| LineBreakNode
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:294](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L294)
+[packages/lexical/src/LexicalUtils.ts:295](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L295)
 
 ___
 
@@ -3704,7 +3705,7 @@ node is RootNode \| ShadowRootNode
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1486](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1486)
+[packages/lexical/src/LexicalUtils.ts:1497](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1497)
 
 ___
 
@@ -3834,7 +3835,7 @@ true if caretOrSlice is a TextPointCaretSlice
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1111](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1111)
+[packages/lexical/src/caret/LexicalCaret.ts:1113](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1113)
 
 ___
 
@@ -3856,7 +3857,7 @@ Return true if the TextNode is a TabNode, or is in token or segmented mode.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:233](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L233)
+[packages/lexical/src/LexicalUtils.ts:234](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L234)
 
 ___
 
@@ -3878,7 +3879,7 @@ Return true if the TextNode is a TabNode or is in token mode.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:226](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L226)
+[packages/lexical/src/LexicalUtils.ts:227](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L227)
 
 ___
 
@@ -3908,7 +3909,7 @@ Use [LexicalEditor.registerMutationListener](../classes/lexical.LexicalEditor.md
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1205](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1205)
+[packages/lexical/src/LexicalUtils.ts:1216](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1216)
 
 ___
 
@@ -3989,7 +3990,7 @@ functions added with previous calls to `$onUpdate`.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1407](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1407)
+[packages/lexical/src/LexicalUtils.ts:1418](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1418)
 
 ___
 
@@ -4101,7 +4102,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1123](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1123)
+[packages/lexical/src/LexicalUtils.ts:1134](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1134)
 
 ___
 
@@ -4121,7 +4122,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:476](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L476)
+[packages/lexical/src/LexicalUtils.ts:477](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L477)
 
 ___
 
@@ -4170,7 +4171,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:622](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L622)
+[packages/lexical/src/LexicalUtils.ts:623](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L623)
 
 ___
 
@@ -4291,7 +4292,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1708](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1708)
+[packages/lexical/src/LexicalUtils.ts:1719](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1719)
 
 ___
 
@@ -4488,7 +4489,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1326](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1326)
+[packages/lexical/src/LexicalUtils.ts:1337](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1337)
 
 ___
 
@@ -4513,7 +4514,7 @@ a Selection or null
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1691](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1691)
+[packages/lexical/src/LexicalUtils.ts:1702](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1702)
 
 ___
 
@@ -4537,7 +4538,7 @@ a Selection or null
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1701](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1701)
+[packages/lexical/src/LexicalUtils.ts:1712](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1712)
 
 ___
 
@@ -4557,7 +4558,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:253](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L253)
+[packages/lexical/src/LexicalUtils.ts:254](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L254)
 
 ___
 
@@ -4577,7 +4578,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:193](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L193)
+[packages/lexical/src/LexicalUtils.ts:194](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L194)
 
 ___
 
@@ -4599,7 +4600,7 @@ if the Dom Node is a block node
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1828](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1828)
+[packages/lexical/src/LexicalUtils.ts:1839](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1839)
 
 ___
 
@@ -4635,7 +4636,7 @@ Returns true if node is an DOM Document node, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:249](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L249)
+[packages/lexical/src/LexicalUtils.ts:250](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L250)
 
 ___
 
@@ -4657,7 +4658,7 @@ Returns true if x is a DOM Node, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1793](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1793)
+[packages/lexical/src/LexicalUtils.ts:1804](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1804)
 
 ___
 
@@ -4679,7 +4680,7 @@ Returns true if node is an DOM Text node, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:241](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L241)
+[packages/lexical/src/LexicalUtils.ts:242](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L242)
 
 ___
 
@@ -4701,7 +4702,7 @@ Returns true if x is a document fragment, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1806](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1806)
+[packages/lexical/src/LexicalUtils.ts:1817](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1817)
 
 ___
 
@@ -4727,7 +4728,7 @@ true if the event matches
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:946](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L946)
+[packages/lexical/src/LexicalUtils.ts:957](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L957)
 
 ___
 
@@ -4749,7 +4750,7 @@ Returns true if x is an HTML anchor tag, false otherwise
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1777](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1777)
+[packages/lexical/src/LexicalUtils.ts:1788](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1788)
 
 ___
 
@@ -4771,7 +4772,7 @@ Returns true if x is an HTML element, false otherwise.
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1785](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1785)
+[packages/lexical/src/LexicalUtils.ts:1796](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1796)
 
 ___
 
@@ -4793,7 +4794,7 @@ if the Dom Node is an inline node
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1815](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1815)
+[packages/lexical/src/LexicalUtils.ts:1826](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1826)
 
 ___
 
@@ -4815,7 +4816,7 @@ true if the given argument is a LexicalEditor instance from this build of Lexica
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:188](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L188)
+[packages/lexical/src/LexicalUtils.ts:189](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L189)
 
 ___
 
@@ -4840,7 +4841,7 @@ true if the event matches
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:926](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L926)
+[packages/lexical/src/LexicalUtils.ts:937](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L937)
 
 ___
 
@@ -4860,7 +4861,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:147](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L147)
+[packages/lexical/src/LexicalUtils.ts:148](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L148)
 
 ___
 
@@ -4882,7 +4883,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:164](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L164)
+[packages/lexical/src/LexicalUtils.ts:165](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L165)
 
 ___
 
@@ -4926,7 +4927,7 @@ An IterableIterator
 
 #### Defined in
 
-[packages/lexical/src/caret/LexicalCaret.ts:1183](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1183)
+[packages/lexical/src/caret/LexicalCaret.ts:1185](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/caret/LexicalCaret.ts#L1185)
 
 ___
 
@@ -4940,7 +4941,7 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:101](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L101)
+[packages/lexical/src/LexicalUtils.ts:102](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L102)
 
 ___
 
@@ -4961,4 +4962,4 @@ ___
 
 #### Defined in
 
-[packages/lexical/src/LexicalUtils.ts:1970](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1970)
+[packages/lexical/src/LexicalUtils.ts:1981](https://github.com/QubitPi/lexical/tree/main/packages/lexical/src/LexicalUtils.ts#L1981)
