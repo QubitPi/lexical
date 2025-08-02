@@ -1747,7 +1747,7 @@ ___
 
 • `Const` **KEY\_ARROW\_DOWN\_COMMAND**: [`LexicalCommand`](lexical.md#lexicalcommand)\<`KeyboardEvent`\>
 
-Dispatched when the `'ArrowUp'` key is pressed.
+Dispatched when the `'ArrowDown'` key is pressed.
 The shift and/or alt (option) modifier keys may also be down.
 
 #### Defined in
